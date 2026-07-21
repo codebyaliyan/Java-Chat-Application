@@ -49,10 +49,11 @@ This project demonstrates the following core Java concepts:
 ---
 
 ## 📁 Project Structure
+```
 Chat_Application/
-├── Server.java # Main server application
-└── Client.java # Client application (for users)
-
+├── Server.java          # Main server application
+└── Client.java          # Client application (for users)
+```
 ## ⚙️ How to Run
 
 ### Prerequisites
@@ -61,11 +62,37 @@ Chat_Application/
 
 ### Step-by-Step Instructions
 
-#### 1. Download or Clone the Repository
+### Step 1: Compile the Server
 ```bash
-git clone https://github.com/codebyaliyan/Java-Chat-Application.git
-cd Java-Chat-Application
+javac Server.java
+```
 
--javac Server.java
--javac Client.java
+### Step 2: Compile the Client
+```bash
+javac Client.java
+```
 
+### Step 3: Start the Server
+```bash
+java Server
+```
+
+### Step 4: Start the Client (in a new terminal)
+```bash
+java Client
+```
+
+## 📚 Technologies Used
+
+- **Java 8+** – Core programming language.
+- **Java.net** – For Socket and ServerSocket classes.
+- **Java.io** – For BufferedReader, PrintWriter, and stream handling.
+- **Java.util** – For Scanner, ArrayList, and Collections.
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, please **star** it on GitHub! ⭐
+
+---
