@@ -15,7 +15,6 @@ public class Client {
         
         System.out.println("Enter your Name : ");
         String clientName = sc.nextLine();
-        //msgout.println(clientName);
 
         Thread sendingMessage = new Thread(new Runnable(){
                 public void run(){
